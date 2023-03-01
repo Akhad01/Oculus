@@ -498,3 +498,66 @@ body {
   text-align: center;
   width: 100%;
 }
+
+.contacts {
+  margin-bottom: 100px;
+}
+
+.contacts__title {
+  line-height: 28px;
+  font-size: 24px;
+  color: #070707;
+  margin-bottom: 10px;
+}
+
+.contacts__ineer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.contacts__form {
+  flex-basis: 600px;
+}
+
+.form {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #CACAD6;
+  padding: 22px 70px 22px 0;
+}
+
+.form__input::placeholder {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #CACAD6;
+}
+
+.form__btn {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  height: 50px;
+  width: 50px;
+  font-size: 13px;
+  line-height: 15px;
+  background-color: #CACAD6;
+  font-weight: 700;
+  color: #5C5C5E;
+  border-radius: 50%;
+  text-transform: uppercase;
+}
+
+.contacts__text {
+  font-size: 13px;
+}
+
+.contacts__email {}

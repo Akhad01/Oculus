@@ -560,4 +560,14 @@ body {
   font-size: 13px;
 }
 
-.contacts__email {}
+.footer {
+  border-bottom: 1px solid #CACAD6;
+  border-top: 1px solid #CACAD6;
+  padding: 30px 0;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  justify-self: end;
+}

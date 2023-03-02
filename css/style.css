@@ -690,6 +690,12 @@ body {
 
   .tabs__content-item {
     display: block;
+    height: 0;
+    position: relative;
+  }
+
+  .tabs__content-item--active {
+    height: auto;
   }
 
   .video {

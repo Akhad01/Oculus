@@ -583,12 +583,24 @@ body {
   border-bottom: 1px solid #CACAD6;
   border-top: 1px solid #CACAD6;
   padding: 30px 0;
+  margin-bottom: 50px;
 }
 
 .social {
   display: flex;
   gap: 20px;
   justify-self: end;
+}
+
+@media (max-width: 1140px) {
+  .footer .menu {
+    display: none;
+  }
+
+  .footer .nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 992px) {
@@ -733,6 +745,17 @@ body {
 
   .nav {
     grid-template-columns: 1fr 2fr 1fr
+  }
+
+  .footer .nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .social {
+    order: -1;
+    margin-bottom: 20px;
+    gap: 30px;
   }
 }
 

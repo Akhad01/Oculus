@@ -25,3 +25,12 @@ function clickHandler(evn) {
     .querySelector(`#${button}`)
     .classList.add("tabs__content-item--active");
 }
+
+const menuBtn = document.querySelector(".menu__btn");
+const menu = document.querySelector(".menu");
+
+console.log("menu", menuBtn);
+
+menuBtn.addEventListener("click", () => {
+  menu.classList.toggle("menu--active");
+});

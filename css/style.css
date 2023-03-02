@@ -594,6 +594,15 @@ body {
 
 }
 
+@media (max-width: 820px) {
+  .equipment__box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+}
+
+
 @media (max-width: 768px) {
   .title {
     font-size: 66px;
@@ -634,6 +643,19 @@ body {
   .game__inner {
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
+  }
+
+  .equipment__box {
+    display: block;
+  }
+
+  .equipment__box-img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .equipment__box-text {
+    margin-bottom: 10px;
   }
 }
 
